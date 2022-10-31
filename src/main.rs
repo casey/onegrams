@@ -29,7 +29,7 @@ fn main() {
       for line in file.lines() {
         if let Some(captures) = regex.captures(&line) {
           let word = captures.get(1).unwrap().as_str();
-          if word > "nvtdijuwxlp" || word <= "afwtgdxubgj" {
+          if word > "nvtdijuwxlp" || word <= "afqsjjpjruv" {
             continue;
           }
           *occurrences.entry(word).or_default() += captures[3].parse::<u64>().unwrap();
